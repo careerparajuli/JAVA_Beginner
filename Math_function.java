@@ -10,6 +10,12 @@ public class Math_function {
 		int number = -24;
 		number = Math.abs(number);
 		System.out.println("The absolute value is number is: "+number);
+
+		double test =4.5656;
+		System.out.println(Math.floor(test));
+		System.out.println(Math.ceil(test));
+		System.out.println(Math.round(test));
+		
 	}
 
 }
